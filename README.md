@@ -1,6 +1,19 @@
 # Some Tips for Programming
+Created by: Yazdan Asgari<br>
+Creation date: 17 Jun 2022<br>
+Update: Jun 2022<br>
+https://cesp.inserm.fr/en/equipe/exposome-and-heredity
+<br>
+<br>
 
-## Calculation of Very Very Small Values for P-value (P-value calculation based on beta and se)
+## Contents
+- [Calculation of Very Very Small Values for P-value based on beta and se](#calculation-of-very-very-small-values-for-p-value-based-on-beta-and-se)
+  * [Python](#python)
+  * [R](#r)
+- [VROOM a Fast Way to read/write Big Text Data in R](#vroom-a-fast-way-to-read-write-big-text-data-in-r)
+
+
+## Calculation of Very Very Small Values for P-value based on beta and se
 If there is no column for **P_value** in the original GWAS Summary Statistics data, **P-value** could be calculated based on **beta** and **se** using **chi2** distribution. <br>
 But if you use the basic function, it ignores very very small values for P-value and set it to zero. In order to calculate very very small P-values (vary large z values), you need to use the following equations in **Python** or **R**. 
 ### Python
@@ -28,7 +41,7 @@ z2 <- (beta/se)**2
 pchisq(z2, 1, lower.tail = FALSE)
 1.251669e-206
 ```
-## VROOM, a Fast Way to read/write Big Text Data in R
+## VROOM a Fast Way to read/write Big Text Data in R
 If you work with big text data files, one of the best and fast way to read/write them is using "vroom" library in R. Here is the comparison of some R commands and **vroom** functions [[Ref]](https://cran.r-project.org/web/packages/vroom/readme/README.html):
 <div align="center">
 <kbd>
