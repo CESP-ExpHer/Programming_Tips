@@ -10,7 +10,7 @@ https://cesp.inserm.fr/en/equipe/exposome-and-heredity
 - [Calculation of Very Very Small Values for P-value based on beta and se](#calculation-of-very-very-small-values-for-p-value-based-on-beta-and-se)
   * [Python](#python)
   * [R](#r)
-- [VROOM a Fast Way to read/write Big Text Data in R](#vroom-a-fast-way-to-read-write-big-text-data-in-r)
+- [VROOM a Fast Way to read_or_write Big Text Data in R](#vroom-a-fast-way-to-read-or-write-big-text-data-in-r)
 
 
 ## Calculation of Very Very Small Values for P-value based on beta and se
@@ -41,7 +41,7 @@ z2 <- (beta/se)**2
 pchisq(z2, 1, lower.tail = FALSE)
 1.251669e-206
 ```
-## VROOM a Fast Way to read/write Big Text Data in R
+## VROOM a Fast Way to read or write Big Text Data in R
 If you work with big text data files, one of the best and fast way to read/write them is using "vroom" library in R. Here is the comparison of some R commands and **vroom** functions [[Ref]](https://cran.r-project.org/web/packages/vroom/readme/README.html):
 <div align="center">
 <kbd>
