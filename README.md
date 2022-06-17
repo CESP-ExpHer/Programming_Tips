@@ -1,7 +1,7 @@
 # Some Tips for Programming
 
 ## Calculation of Very Very Small Values for P-value (P-value calculation based on beta and se)
-If there is no column for "P_value" in the original GWAS Summary Statistics data, P-value could be calculated based on "beta" and "se" using chi2 distribution.
+If there is no column for **P_value** in the original GWAS Summary Statistics data, **P-value** could be calculated based on **beta** and **se** using **chi2** distribution.
 ### Python
 ```python
 from scipy.stats.distributions import chi2
