@@ -18,13 +18,13 @@ chi2.sf(z2,1)
 ```
 ### R
 ```R
-p = pchisq( (beta/se)**2, 1, lower.tail = FALSE )
+p <- pchisq( (beta/se)**2, 1, lower.tail = FALSE )
 ```
 Example:
 ```R
-beta = -0.246192				
-se = 0.00802599	
-z2 = (beta/se)**2
+beta <- -0.246192				
+se <- 0.00802599	
+z2 <- (beta/se)**2
 pchisq(z2, 1, lower.tail = FALSE)
 1.251669e-206
 ```
