@@ -31,7 +31,9 @@ pchisq(z2, 1, lower.tail = FALSE)
 ## VROOM, a Fast Way to read/write Big Text Data in R
 If you work with big text data files, one of the best and fast way to read/write them is using "vroom" library in R. Here is the comparison of some R commands and **vroom** functions [[Ref]](https://cran.r-project.org/web/packages/vroom/readme/README.html):
 <br></br>
-<kbd align="center"> <img src="Images/vroom_comparison.JPG"/> </kbd>
+<p align="center">
+  <img src="Images/vroom_comparison.JPG"/>
+</p>
 <br></br>
 
 
