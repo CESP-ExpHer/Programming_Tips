@@ -10,8 +10,8 @@ https://cesp.inserm.fr/en/equipe/exposome-and-heredity
 - [Calculation of Very Very Small Values for P-value based on beta and se](#calculation-of-very-very-small-values-for-p-value-based-on-beta-and-se)
   * [Python](#python)
   * [R](#r)
-- [VROOM a Fast Way to read_or_write Big Text Data in R](#vroom-a-fast-way-to-read-or-write-big-text-data-in-r)
-
+- [VROOM a Fast Way to read or write Big Text Data in R](#vroom-a-fast-way-to-read-or-write-big-text-data-in-r)
+- [dplyr Library for Fast Operations in R](#dplyr-library-for-fast-operations-in-r)
 
 ## Calculation of Very Very Small Values for P-value based on beta and se
 If there is no column for **P_value** in the original GWAS Summary Statistics data, **P-value** could be calculated based on **beta** and **se** using **chi2** distribution. <br>
