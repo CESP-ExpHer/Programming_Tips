@@ -50,14 +50,14 @@ If you work with big text data files, one of the best and fast way to read/write
 </div>
 <br></br>
 
-## dplyr R Library for Fast Operations
-Consider a dataframe #1 with 5e5 rows and a dataframe #2 with 1e5 rows. 
+## dplyr Library for Fast Operations in R
+- Consider a dataframe #1 with 5e5 rows and a dataframe #2 with 1e5 rows. 
 <br>
-For example, working on this data, **match** and **apply** methods took around **74 seconds** while **dplyr** took **0.3 seconds**. So, for working with large dataframes, it is recommended to use functions inside **dplyr** library.
+- For example, working on this data, **match** and **apply** methods took around **74 seconds** while **dplyr** took **0.3 seconds**. So, for working with large dataframes, it is recommended to use functions inside **dplyr** library.
 <br>
-In addition, to merge data, it is recommended to use different **join** functions of the **dplyr** library (such as inner_join, left_join, right_join, full_join, semi_join, anti_join).
+- In addition, to merge data, it is recommended to use different **join** functions of the **dplyr** library (such as inner_join, left_join, right_join, full_join, semi_join, anti_join).
 <br>
-Or you could use **tidyverse** which includes the **dplyr** and some other useful libraries (such as ggplot2, tidyr, tibble, etc.) in its core.
+- Or you could use **tidyverse** which includes the **dplyr** and some other useful libraries (such as ggplot2, tidyr, tibble, etc.) in its core.
 
 
 
